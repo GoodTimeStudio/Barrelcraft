@@ -1,0 +1,49 @@
+nav:
+  - 主页: 'index.md'
+  - 合成表修改:
+    - 指导: 'Crafting/index.md'
+    - 物品合成表修改: 'Crafting/changeitem.md'
+    - 机器合成表修改: 'Crafting/changemachine.md'
+  - 任务与商店:
+    - 指导: 'Mission/index.md'
+  - 其他: 'other.md'
+
+plugins:
+    - search
+    - markdownextradata: {}
+    
+markdown_extensions:
+  - abbr
+  - admonition
+  - smarty
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+    
+theme: 
+    name: material
+    highlightjs: true
+    language: zh
+    
+site_name: 桶中天下整合包-Barrelcraft
+repo_url: 'https://github.com/GoodTimeStudio/Barrelcraft'
+repo_name: 'Barrelcraft'
